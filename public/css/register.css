@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+    background-color: #EAC926;
+}
+
+.contenedor {
+    background-color: #ebebeb;
+    ;
+    border-radius: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.estilo_formulario {
+    padding: 20px 15px;
+}
+
+.control_formulario {
+    margin-bottom: 15px;
+}
+
+.control_formulario label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.control {
+    width: 100%;
+    padding: 8px;
+}
+
+.contenido_del_label {
+    color: #666;
+    text-align: center;
+}
+
+.color_texto {
+    color: #666;
+    ;
+}
+
+.boton_formulario {
+    background-color: #39b54a;
+    ;
+    font-size: 20px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-out
+}
+
+.boton_formulario:hover {
+    background-color: #0022AA;
+}
+
+.boton_contenedor {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}

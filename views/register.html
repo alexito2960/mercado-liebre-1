@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Formulario de registro</title>
+</head>
+
+<body>
+    <article class="contenedor">
+
+        <form action="#" method="post" class="estilo_formulario">
+            <div class="control_formulario">
+                <label for="">
+                    <h4 class="contenido_del_label">Nombre y Apellido:</h4>
+                </label>
+                <input type="text" name="nombre_apellido" placeholder="igresa tu nombre y apellido" required
+                    class="control">
+            </div>
+
+            <div class="control_formulario">
+                <label for="">
+                    <h4 class="contenido_del_label">Nombre de Usuario:</h4>
+                </label>
+                <input type="text" name="nombre_usuario" placeholder="igresa un nombre de usuario" required
+                    class="control">
+            </div>
+
+            <div class="control_formulario">
+                <label for="">
+                    <h4 class="contenido_del_label">E-mail</h4>
+                </label>
+                <input type="email" name="email" placeholder="igresa tu e-mail" class="control">
+            </div>
+
+            <div class="control_formulario">
+                <label for="">
+                    <h4 class="contenido_del_label">Fecha de Nacimiento:</h4>
+                </label>
+                <input type="date" name="Fecha_nacimiemto" class="control">
+            </div>
+
+            <div class="control_formulario">
+                <label for="">
+                    <h4 class="contenido_del_label">Domicilio:</h4>
+                </label>
+                <input type="text" name="domicilio" placeholder="ingresa tu domicilio" required class="control">
+            </div>
+
+            <div class="control_formulario">
+                <label for="">
+                    <h4 class="color_texto">Perfil del Usuario:</h4>
+                </label>
+                <input type="radio" name="Perfil" value="Comprar">Comprar</input>
+                <input type="radio" name="Perfil" value="Vender"> Vender</input>
+            </div>
+
+            <div class="control_formulario">
+                <label for="categorias">
+                    <h4 class="color_texto">Categorias:</h4>
+                </label>
+                <input type="checkbox" name="Electro">Electro</input>
+                <input type="checkbox" name="Moda">Moda</input>
+                <input type="checkbox" name="Hogar">Hogar</input>
+                <input type="checkbox" name="Juguetería">Juguetería</input>
+                <input type="checkbox" name="vida sana">Vida Sana</input>
+            </div>
+
+            <div class="control_formulario">
+                <label for="">
+                    <h4 class="color_texto">Foto de Usuario:</h4>
+                </label>
+                <input type="file" name="foto_usuario" accept=".jpg">
+            </div>
+
+            <div class="control_formulario">
+                <label for="">
+                    <h4 class="contenido_del_label">Contraseña:</h4>
+                </label>
+                <input type="password" name="clave" placeholder="ingresa una contraseña" class="control" required>
+            </div>
+
+            <div class="control_formulario">
+                <label for="">
+                    <h4 class="contenido_del_label">Confirmar Contraseña:</h4>
+                </label>
+                <input type="password" name="clave" placeholder="ingresa nuevamente tu contraseña" class="control"
+                    required>
+            </div>
+
+            <div class="boton_contenedor">
+                <button type="reset" name="borrar" class="boton_formulario">Borrar</button>
+                <button type="submit" name="enviar" class="boton_formulario">Enviar</button>
+            </div>
+
+        </form>
+
+    </article>
+
+</body>
+
+</html>
